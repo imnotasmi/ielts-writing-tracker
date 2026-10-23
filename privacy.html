@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - IELTS Writing Task 2 Practice Tracker</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: #18181b; background: #fafaf9; margin: 0; padding: 2rem 1rem; }
+    .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 2.5rem; border: 1px solid #e4e4e7; border-radius: 10px; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 1.75rem; margin-bottom: 0.5rem; }
+    p, li { color: #52525b; font-size: 0.95rem; }
+    ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .callout { background: #f0fdfa; border-left: 4px solid #0f766e; padding: 1rem; margin: 1.5rem 0; font-size: 0.9rem; }
+    a { color: #0f766e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> October 2026</p>
+    <p>This Privacy Policy explains how the <strong>IELTS Writing Task 2 Practice Tracker</strong> ("we", "the Add-on") handles your data.</p>
+
+    <div class="callout">
+      <strong>Core Privacy Guarantee:</strong> We do not operate external database servers. We never store, collect, or sell your essays, band scores, or API keys. Everything stays inside your own Google account and Google Sheet.
+    </div>
+
+    <h2>1. Data Storage & Architecture</h2>
+    <ul>
+      <li><strong>Essays & Feedback:</strong> All essay prompts, essay text, criterion scores, generated rewrites, and vocabulary logs are stored strictly inside your Google Sheet in your personal Google Drive.</li>
+      <li><strong>Google Gemini API Key:</strong> Your Google Gemini API key is stored locally in Google Apps Script <code>UserProperties</code> tied solely to your Google account. It is never written into sheet cells and cannot be accessed by other users sharing your sheet.</li>
+    </ul>
+
+    <h2>2. Third-Party Services (Google Gemini)</h2>
+    <p>When you click "Analyse Essay", "Get Ideas", or "Generate Rewrite", your essay prompt and text are transmitted directly via HTTPS to Google's Generative Language API (Gemini) using the API key you provide. Data sent to Google AI Studio is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+    <h2>3. Google Workspace Scopes & Permissions</h2>
+    <p>The Add-on requests permission to interact with your spreadsheets (such as <code>spreadsheets.currentonly</code> or <code>spreadsheets</code>) solely to read your submitted drafts, format tracking tabs, and render chart reports.</p>
+
+    <h2>4. Google API Limited Use Disclosure</h2>
+    <p>IELTS Writing Task 2 Practice Tracker's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have any questions regarding this Privacy Policy, please contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  </div>
+</body>
+</html>
